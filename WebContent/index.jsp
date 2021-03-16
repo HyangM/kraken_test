@@ -29,7 +29,7 @@
 	    el: document.getElementById('grid'),
 	    scrollX: false,
 	    scrollY: false,
-	    rowHeaders: ['checkbox'],
+	    rowHeaders: ['checkbox'], 
 	    columns: [
 	  	  {
 	  	    header: '거래처ID',
