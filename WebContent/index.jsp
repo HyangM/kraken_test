@@ -85,24 +85,6 @@
         console.log('check!', ev);
         var id = ev.get
       });	
-	
-	tui.Grid.prototype.getSelectedRows = function(){
-		var inputRange = this.modelManager.selectionModel.inputRange;
-		var currentRow = this.$el.find('.tui-grid-cell-current-row:first').parents('tr').data('rowKey');
-		
-		if(inputRange){
-			var selectedRows = [];
-			for(var i = inputRange.row[0]; i <= inputRange.row[inputRange.row.length-1] ; i++)
-				selectedRows.push(this.getRowAt(i,false));
-			
-			return selectedRows;
-		}
-		else if(currentRow){
-			return [this.getRowAt( this.$el.find('.tui-grid-cell-current-row:first').parents('tr').data('rowKey') , false)];
-		}
-		
-		return null;
-	};
 </script>
 </body>
 </html>
