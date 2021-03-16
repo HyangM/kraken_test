@@ -17,6 +17,7 @@
   <button id='addBtn'>추가</button>
   <button id='saveBtn'>저장</button>
   <button id='delBtn'>삭제</button>
+  <button id='delBtn'>삭제2</button>
 
 <script type="text/javascript">
 	var clsData = {
